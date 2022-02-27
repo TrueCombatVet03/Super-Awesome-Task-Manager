@@ -1,0 +1,87 @@
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    padding-bottom: 10px;
+    font-family: 'Lora', serif;
+}
+
+#btnToggleForm{
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+main{
+    display:flex;
+    background-image: url(../images/12_clean.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#list{
+    flex: 3;
+}
+
+#form{
+    flex: 2;
+    background-color: rgb(243, 229, 229, 0.90);
+    border-radius: 1%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+#iImportant{
+    font-size: 25px;
+    color:rgb(14, 1, 1);
+    cursor: pointer;
+}
+
+#iImportant.fas{
+    color:red;
+}
+
+.title{
+    color:coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 3rem;
+    font-family: 'Lora', serif;
+}
+
+#form{
+    margin-top: 6rem;
+    padding-right: 2rem;
+}
+
+.form-label{
+    padding-top: 1rem;
+    font-weight: 600;
+    padding-left: 10px;
+    
+}
+
+#btnSave{
+    color:rgb(14, 4, 1);
+    background-color: coral;
+    margin-top: 2rem;
+    border-radius: 20px ;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.form-control{
+   margin-left: 10px;
+}
+
+.btn-primary{
+    color:rgb(8, 0, 0);
+    background-color: coral;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.box-color{
+    border-radius: 10%;
+}
