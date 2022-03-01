@@ -19,6 +19,10 @@ main{
     background-repeat: no-repeat;
 }
 
+.control{
+    font-family: 'Lora', serif;
+}
+
 #list{
     flex: 3;
 }
@@ -85,3 +89,80 @@ main{
 .box-color{
     border-radius: 10%;
 }
+
+.task{
+    display: flex;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    padding-left: 10px;
+    border: 2px solid coral;
+    background-color: rgb(243, 229, 229, 0.90);
+    
+}
+
+.task h5{
+    align-items: center;
+}
+
+.task .date{
+    color:red;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.task  {
+   
+    max-width: 50rem;
+    max-block-size: 300px;
+    margin-left: 2rem;
+    border-radius: 15px 50px 50px 5px;
+    max-height: 200px;
+}
+
+.btn.btn-sm.btn-danger{
+    
+    margin-top: 50px;
+    margin-left: 12rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    width: 50px;
+    height: 40px;
+}
+
+#task-list{
+    font-family: 'Lora', serif;
+}
+
+.task .location{
+    font-family: 'Lora', serif;
+    padding-top: 2rem;
+}
+
+.task .contact{
+    padding-top: 20px;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-family: 'Lora', serif;
+}
+.task h5{
+    padding-top: 10px;
+}
+
+.task .date{
+   margin-left: 3rem;
+}
+
+
+.task p{
+    padding-top: 10px;
+}
+
+.task .date{
+    padding-left: 1rem;
+}
+
+.task .second-info{
+    padding-left: 2rem;
+}
+
