@@ -12,6 +12,11 @@ h1{
     margin-left: 3rem;
 }
 
+.btn.btn-danger{
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
 main{
     display:flex;
     background-image: url(../images/12_clean.png);
@@ -97,7 +102,11 @@ main{
     padding-left: 10px;
     border: 2px solid coral;
     background-color: rgb(243, 229, 229, 0.90);
-    
+    max-width: 50rem;
+    max-block-size: 300px;
+    margin-left: 2rem;
+    border-radius: 15px 50px 50px 5px;
+    max-height: 300px;
 }
 
 .task h5{
@@ -106,24 +115,15 @@ main{
 
 .task .date{
     color:red;
-    padding-top: 2rem;
-    padding-left: 2rem;
+   padding-top: 30px;
 }
 
-.task  {
-   
-    max-width: 50rem;
-    max-block-size: 300px;
-    margin-left: 2rem;
-    border-radius: 15px 50px 50px 5px;
-    max-height: 200px;
-}
 
 .btn.btn-sm.btn-danger{
     
-    margin-top: 50px;
-    margin-left: 12rem;
-    margin-right: 10px;
+    margin-top: 25px;
+    margin-left: 12px;
+    margin-right: 12px;
     margin-bottom: 10px;
     font-size: 10px;
     width: 50px;
@@ -139,6 +139,22 @@ main{
     padding-top: 2rem;
 }
 
+.task .main-info {
+    flex: 4;
+}
+
+.task .data {
+    flex: 1;
+}
+
+.task .second-info {
+    flex: 2;
+}
+
+.task button {
+    flex: 1;
+}
+
 .task .contact{
     padding-top: 20px;
     padding-bottom: 1rem;
@@ -150,7 +166,9 @@ main{
 }
 
 .task .date{
-   margin-left: 3rem;
+    flex: 1;
+   margin-left: 1rem;
+   padding-left: 1rem;
 }
 
 
@@ -158,9 +176,7 @@ main{
     padding-top: 10px;
 }
 
-.task .date{
-    padding-left: 1rem;
-}
+
 
 .task .second-info{
     padding-left: 2rem;

@@ -9,5 +9,7 @@ class Task {
         this.location = location;
         this.description = desc;
         this.color = color;
+
+        this.name = "Kevin106";
     }
 }
